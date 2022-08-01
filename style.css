@@ -1,0 +1,158 @@
+body {
+  background-color: #fff;
+  /* font-family: orbitron; */
+  max-width: 100%;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/orbitron/v25/yMJRMIlzdpvBhQQL_Qq7dy0.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+.navbar-container {
+  display: flex;
+
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+.navbar-container > div > img {
+  position: relative;
+  left: -8px;
+  top: 10px;
+  width: 120px;
+}
+.list {
+  display: flex;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.list-item-active {
+  display: flex;
+  margin-right: 40px;
+  font-weight: 900;
+  text-decoration: underline;
+}
+.list-item {
+  display: flex;
+  margin-right: 40px;
+}
+.button-group {
+  display: flex;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+.hero-container {
+  display: flex;
+  width: 100%;
+}
+.main-img {
+  position: absolute;
+  top: 150px;
+  left: 80px;
+  height: 400px;
+}
+.square {
+  position: absolute;
+  top: 300px;
+  left: 160px;
+  height: 200px;
+}
+.globe-img {
+  position: relative;
+  width: 50px;
+  top: 25px;
+  left: 480px;
+}
+.star1 > img {
+  width: 40px;
+  position: relative;
+  top: 50px;
+  left: 1000px;
+}
+.star2 > img {
+  width: 30px;
+  position: relative;
+  top: 450px;
+  left: 500px;
+}
+.hero-container-right {
+  display: inline-block;
+  width: 50%;
+  position: relative;
+  margin-left: 35%;
+}
+.search-icon {
+  position: relative;
+  left: -10px;
+  top: -2px;
+}
+.nav-button {
+  position: relative;
+  top: -5px;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 120px;
+  color: grey;
+  height: 35px;
+  font-size: 18px;
+}
+
+.hero-heading {
+  text-decoration: solid;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  top: 120px;
+  font-size: 42px;
+}
+.hero-description {
+  padding: 30px;
+  padding-bottom: 10px;
+  position: relative;
+  top: 120px;
+  font-size: 12px;
+  text-align: center;
+}
+.button-email {
+  position: relative;
+  top: 170px;
+  left: 120px;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 170px;
+  color: grey;
+  font-size: 18px;
+  border-width: 2px;
+}
+.button-join {
+  position: relative;
+  top: 170px;
+  left: 130px;
+  background-color: #000;
+  border-radius: 8px;
+  width: 120px;
+  color: #fff;
+  font-size: 18px;
+  border-width: 2px;
+}
+.contact-heading {
+  position: relative;
+  display: inline-block;
+  top: 220px;
+  left: 230px;
+  color: grey;
+}
+.icons > span > img {
+  width: 25px;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  top: 210px;
+  left: 180px;
+}
